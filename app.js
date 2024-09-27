@@ -65,3 +65,69 @@ console.log(fruits.includes(`Banana`))
 console.log(`Задание 9`)
 const array =[2, 5, 9];
 console.log(array)
+
+
+let obj = {
+    'year': 2024,
+    'mounth': '09',
+    'day': 25
+};
+console.log(obj);
+obj.hour = 11;
+obj.min = '05';
+console.log(obj);
+let keys = Object.keys(obj);
+console.log(keys);
+console.log(obj[keys[3]])
+ 
+
+console.log(`Задание 1`);
+ let user1 = {
+    name: "John",
+    age: 30
+ };
+ console.log('age' in user1);
+
+
+console.log(`Задание 2`);
+
+ let users = [{
+    name: "John",
+    age: 30
+ },
+
+ {
+    name: "Optimus",
+    age: 18
+ },
+ {
+    name: "Kenny",
+    age: 36
+ }];
+ console.log(users[2]);
+
+ console.log(`Задание 3`);
+ delete users[1];
+ console.log(users);
+ 
+ console.log(`Задание 4`);
+ let sort = users.sort((b,c) => b.age - c.age);
+ console.log(sort);
+
+
+ console.log(`Задание 5`);
+ const obj2 = {
+    id: 5,
+    token: 12343423
+ };
+ const id = obj2[`id`];
+ console.log(id);
+
+console.log(`Задание 6`);
+const obj1 = {
+    id: 5,
+    token: 12343423
+};
+obj1 = {id: userId };
+console.log(userId);
+ 
